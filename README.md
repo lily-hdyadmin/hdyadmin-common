@@ -5,7 +5,7 @@
 要求 Go 1.26.0 或更高版本。在其他项目的 Go 模块目录中执行：
 
 ```bash
-go get github.com/lily-hdyadmin/hdyadmin-common@v1.0.0
+go get github.com/lily-hdyadmin/hdyadmin-common@v1.0.1
 ```
 
 按需导入公共组件，例如：
