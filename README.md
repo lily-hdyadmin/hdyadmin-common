@@ -1,6 +1,20 @@
 # hdyadmin-common
 
-# 基础来源
+## 使用
+
+要求 Go 1.26.0 或更高版本。在其他项目的 Go 模块目录中执行：
+
+```bash
+go get github.com/lily-hdyadmin/hdyadmin-common@v1.0.0
+```
+
+按需导入公共组件，例如：
+
+```go
+import "github.com/lily-hdyadmin/hdyadmin-common/crypto"
+```
+
+## 基础来源
 
 从 go-tangra-common 的 标签 v1.20.0 拷贝而来 进行二开
 

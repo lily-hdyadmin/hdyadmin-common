@@ -160,8 +160,8 @@ const file_common_service_v1_statistics_proto_rawDesc = "" +
 	"\x06module\x18\x01 \x01(\tR\x06module\x12+\n" +
 	"\x04data\x18\x02 \x01(\v2\x17.google.protobuf.StructR\x04data2\x8f\x01\n" +
 	"\x17ModuleStatisticsService\x12t\n" +
-	"\x13GetModuleStatistics\x12-.common.service.v1.GetModuleStatisticsRequest\x1a..common.service.v1.GetModuleStatisticsResponseB\xd7\x01\n" +
-	"\x15com.common.service.v1B\x0fStatisticsProtoP\x01ZGgithub.com/lily-hdyadmin/hdyadmin-common/gen/go/common/service/v1;commonpb\xa2\x02\x03CSX\xaa\x02\x11Common.Service.V1\xca\x02\x11Common\\Service\\V1\xe2\x02\x1dCommon\\Service\\V1\\GPBMetadata\xea\x02\x13Common::Service::V1b\x06proto3"
+	"\x13GetModuleStatistics\x12-.common.service.v1.GetModuleStatisticsRequest\x1a..common.service.v1.GetModuleStatisticsResponseB\xda\x01\n" +
+	"\x15com.common.service.v1B\x0fStatisticsProtoP\x01ZJgithub.com/lily-hdyadmin/hdyadmin-common/gen/go/common/service/v1;commonpb\xa2\x02\x03CSX\xaa\x02\x11Common.Service.V1\xca\x02\x11Common\\Service\\V1\xe2\x02\x1dCommon\\Service\\V1\\GPBMetadata\xea\x02\x13Common::Service::V1b\x06proto3"
 
 var (
 	file_common_service_v1_statistics_proto_rawDescOnce sync.Once

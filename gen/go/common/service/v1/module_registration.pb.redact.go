@@ -5,7 +5,6 @@ package commonpb
 
 import (
 	context "context"
-
 	redact "github.com/menta2k/protoc-gen-redact/v3/redact/v3"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
