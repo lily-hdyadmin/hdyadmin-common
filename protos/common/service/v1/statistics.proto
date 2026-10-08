@@ -1,0 +1,39 @@
+// 定义各业务模块向 Core 提供统计数据时使用的稳定公共协议。
+
+syntax = "proto3";
+
+package common.service.v1;
+
+option go_package = "github.com/go-tangra/go-tangra-common/gen/go/common/service/v1;commonpb";
+
+import "google/protobuf/struct.proto";
+
+// ModuleStatisticsService 提供跨模块统一的统计查询入口。
+//
+// 各模块可以继续保留自己的强类型统计接口；本服务只负责向 Core 提供
+// 稳定调用契约，避免 Core 直接依赖各模块的完整 Proto。
+service ModuleStatisticsService {
+  // GetModuleStatistics 返回当前模块的聚合统计数据。
+  rpc GetModuleStatistics(GetModuleStatisticsRequest) returns (GetModuleStatisticsResponse);
+}
+
+// GetModuleStatisticsRequest 定义平台目前使用的通用统计筛选条件。
+message GetModuleStatisticsRequest {
+  // 判断资源“即将到期”的天数；未设置时由模块使用自己的默认值。
+  optional int32 expire_soon_days = 1;
+
+  // 返回的最近错误数量；未设置时由模块使用自己的默认值。
+  optional int32 recent_errors_limit = 2;
+
+  // 可选租户过滤条件；未设置时返回调用方权限范围内的汇总数据。
+  optional uint32 tenant_id = 3;
+}
+
+// GetModuleStatisticsResponse 返回模块标识和模块原有的统计对象。
+message GetModuleStatisticsResponse {
+  // 模块稳定标识，例如 lcm、deployer、ipam、paperless。
+  string module = 1;
+
+  // 模块统计数据；字段结构由模块维护，Core 仅负责透传和聚合。
+  google.protobuf.Struct data = 2;
+}

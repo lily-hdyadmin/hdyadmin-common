@@ -1,0 +1,24 @@
+version: v2
+modules:
+  - path: protos
+    name: buf.build/go-tangra/common
+    lint:
+      use:
+        - STANDARD
+      ignore_only:
+        ENUM_VALUE_PREFIX:
+          - protos/common/admin_stub/v1/user.proto
+        ENUM_ZERO_VALUE_SUFFIX:
+          - protos/common/admin_stub/v1/user.proto
+    breaking:
+      use:
+        - FILE
+deps:
+  - buf.build/googleapis/googleapis
+  - buf.build/menta2k-org/redact
+lint:
+  use:
+    - DEFAULT
+breaking:
+  use:
+    - FILE
