@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/go-tangra/go-tangra-common/crypto"
+	"github.com/lily-hdyadmin/hdyadmin-common/crypto"
 )
 
 func ExampleEncryptor_Encrypt() {

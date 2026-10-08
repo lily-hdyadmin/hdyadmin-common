@@ -10,8 +10,8 @@ import (
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/go-kratos/kratos/v2/middleware"
 	"github.com/go-kratos/kratos/v2/transport"
-	"github.com/go-tangra/go-tangra-common/middleware/mtls"
 	"github.com/google/uuid"
+	"github.com/lily-hdyadmin/hdyadmin-common/middleware/mtls"
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/peer"
 )

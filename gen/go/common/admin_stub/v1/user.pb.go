@@ -266,7 +266,7 @@ const file_common_admin_stub_v1_user_proto_rawDesc = "" +
 	"\x16ListAdminUsersResponse\x125\n" +
 	"\x05items\x18\x01 \x03(\v2\x1f.common.admin_stub.v1.AdminUserR\x05items\x12\x14\n" +
 	"\x05total\x18\x02 \x01(\x05R\x05totalB\xe2\x01\n" +
-	"\x18com.common.admin_stub.v1B\tUserProtoP\x01ZMgithub.com/go-tangra/go-tangra-common/gen/go/common/admin_stub/v1;adminstubpb\xa2\x02\x03CAX\xaa\x02\x13Common.AdminStub.V1\xca\x02\x13Common\\AdminStub\\V1\xe2\x02\x1fCommon\\AdminStub\\V1\\GPBMetadata\xea\x02\x15Common::AdminStub::V1b\x06proto3"
+	"\x18com.common.admin_stub.v1B\tUserProtoP\x01ZMgithub.com/lily-hdyadmin/hdyadmin-common/gen/go/common/admin_stub/v1;adminstubpb\xa2\x02\x03CAX\xaa\x02\x13Common.AdminStub.V1\xca\x02\x13Common\\AdminStub\\V1\xe2\x02\x1fCommon\\AdminStub\\V1\\GPBMetadata\xea\x02\x15Common::AdminStub::V1b\x06proto3"
 
 var (
 	file_common_admin_stub_v1_user_proto_rawDescOnce sync.Once

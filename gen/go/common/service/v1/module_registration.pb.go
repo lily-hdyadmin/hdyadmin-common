@@ -1129,7 +1129,7 @@ const file_common_service_v1_module_registration_proto_rawDesc = "" +
 	"\vListModules\x12%.common.service.v1.ListModulesRequest\x1a&.common.service.v1.ListModulesResponse\x12V\n" +
 	"\tGetModule\x12#.common.service.v1.GetModuleRequest\x1a$.common.service.v1.GetModuleResponse\x12b\n" +
 	"\rResolveModule\x12'.common.service.v1.ResolveModuleRequest\x1a(.common.service.v1.ResolveModuleResponseB\xdf\x01\n" +
-	"\x15com.common.service.v1B\x17ModuleRegistrationProtoP\x01ZGgithub.com/go-tangra/go-tangra-common/gen/go/common/service/v1;commonpb\xa2\x02\x03CSX\xaa\x02\x11Common.Service.V1\xca\x02\x11Common\\Service\\V1\xe2\x02\x1dCommon\\Service\\V1\\GPBMetadata\xea\x02\x13Common::Service::V1b\x06proto3"
+	"\x15com.common.service.v1B\x17ModuleRegistrationProtoP\x01ZGgithub.com/lily-hdyadmin/hdyadmin-common/gen/go/common/service/v1;commonpb\xa2\x02\x03CSX\xaa\x02\x11Common.Service.V1\xca\x02\x11Common\\Service\\V1\xe2\x02\x1dCommon\\Service\\V1\\GPBMetadata\xea\x02\x13Common::Service::V1b\x06proto3"
 
 var (
 	file_common_service_v1_module_registration_proto_rawDescOnce sync.Once

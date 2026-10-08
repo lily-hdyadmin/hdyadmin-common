@@ -4,7 +4,7 @@ syntax = "proto3";
 
 package common.service.v1;
 
-option go_package = "github.com/go-tangra/go-tangra-common/gen/go/common/service/v1;commonpb";
+option go_package = "github.com/lily-hdyadmin/hdyadmin-common/gen/go/common/service/v1;commonpb";
 
 import "google/protobuf/struct.proto";
 
@@ -14,7 +14,8 @@ import "google/protobuf/struct.proto";
 // 稳定调用契约，避免 Core 直接依赖各模块的完整 Proto。
 service ModuleStatisticsService {
   // GetModuleStatistics 返回当前模块的聚合统计数据。
-  rpc GetModuleStatistics(GetModuleStatisticsRequest) returns (GetModuleStatisticsResponse);
+  rpc GetModuleStatistics(GetModuleStatisticsRequest)
+      returns (GetModuleStatisticsResponse);
 }
 
 // GetModuleStatisticsRequest 定义平台目前使用的通用统计筛选条件。

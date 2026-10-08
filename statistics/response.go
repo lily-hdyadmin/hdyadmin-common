@@ -4,7 +4,7 @@ package statistics
 import (
 	"fmt"
 
-	commonV1 "github.com/go-tangra/go-tangra-common/gen/go/common/service/v1"
+	commonV1 "github.com/lily-hdyadmin/hdyadmin-common/gen/go/common/service/v1"
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/structpb"

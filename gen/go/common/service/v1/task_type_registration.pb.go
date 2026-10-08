@@ -326,7 +326,7 @@ const file_common_service_v1_task_type_registration_proto_rawDesc = "" +
 	"\x1bTaskTypeRegistrationService\x12n\n" +
 	"\x11RegisterTaskTypes\x12+.common.service.v1.RegisterTaskTypesRequest\x1a,.common.service.v1.RegisterTaskTypesResponse\x12t\n" +
 	"\x13UnregisterTaskTypes\x12-.common.service.v1.UnregisterTaskTypesRequest\x1a..common.service.v1.UnregisterTaskTypesResponseB\xe1\x01\n" +
-	"\x15com.common.service.v1B\x19TaskTypeRegistrationProtoP\x01ZGgithub.com/go-tangra/go-tangra-common/gen/go/common/service/v1;commonpb\xa2\x02\x03CSX\xaa\x02\x11Common.Service.V1\xca\x02\x11Common\\Service\\V1\xe2\x02\x1dCommon\\Service\\V1\\GPBMetadata\xea\x02\x13Common::Service::V1b\x06proto3"
+	"\x15com.common.service.v1B\x19TaskTypeRegistrationProtoP\x01ZGgithub.com/lily-hdyadmin/hdyadmin-common/gen/go/common/service/v1;commonpb\xa2\x02\x03CSX\xaa\x02\x11Common.Service.V1\xca\x02\x11Common\\Service\\V1\xe2\x02\x1dCommon\\Service\\V1\\GPBMetadata\xea\x02\x13Common::Service::V1b\x06proto3"
 
 var (
 	file_common_service_v1_task_type_registration_proto_rawDescOnce sync.Once

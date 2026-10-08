@@ -220,7 +220,7 @@ const file_common_service_v1_task_executor_proto_rawDesc = "" +
 	"\x11permanent_failure\x18\x04 \x01(\bR\x10permanentFailure2s\n" +
 	"\x13TaskExecutorService\x12\\\n" +
 	"\vExecuteTask\x12%.common.service.v1.ExecuteTaskRequest\x1a&.common.service.v1.ExecuteTaskResponseB\xd9\x01\n" +
-	"\x15com.common.service.v1B\x11TaskExecutorProtoP\x01ZGgithub.com/go-tangra/go-tangra-common/gen/go/common/service/v1;commonpb\xa2\x02\x03CSX\xaa\x02\x11Common.Service.V1\xca\x02\x11Common\\Service\\V1\xe2\x02\x1dCommon\\Service\\V1\\GPBMetadata\xea\x02\x13Common::Service::V1b\x06proto3"
+	"\x15com.common.service.v1B\x11TaskExecutorProtoP\x01ZGgithub.com/lily-hdyadmin/hdyadmin-common/gen/go/common/service/v1;commonpb\xa2\x02\x03CSX\xaa\x02\x11Common.Service.V1\xca\x02\x11Common\\Service\\V1\xe2\x02\x1dCommon\\Service\\V1\\GPBMetadata\xea\x02\x13Common::Service::V1b\x06proto3"
 
 var (
 	file_common_service_v1_task_executor_proto_rawDescOnce sync.Once

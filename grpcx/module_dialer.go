@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/go-kratos/kratos/v2/log"
-	commonV1 "github.com/go-tangra/go-tangra-common/gen/go/common/service/v1"
+	commonV1 "github.com/lily-hdyadmin/hdyadmin-common/gen/go/common/service/v1"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/backoff"
 	"google.golang.org/grpc/credentials"

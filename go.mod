@@ -1,4 +1,4 @@
-module github.com/go-tangra/go-tangra-common
+module github.com/lily-hdyadmin/hdyadmin-common
 
 go 1.25.4
 

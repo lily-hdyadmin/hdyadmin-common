@@ -478,7 +478,7 @@ const file_common_service_v1_backup_service_proto_rawDesc = "" +
 	"\rBackupService\x12a\n" +
 	"\fExportBackup\x12&.common.service.v1.ExportBackupRequest\x1a'.common.service.v1.ExportBackupResponse0\x01\x12a\n" +
 	"\fImportBackup\x12&.common.service.v1.ImportBackupRequest\x1a'.common.service.v1.ImportBackupResponse(\x01B\xda\x01\n" +
-	"\x15com.common.service.v1B\x12BackupServiceProtoP\x01ZGgithub.com/go-tangra/go-tangra-common/gen/go/common/service/v1;commonpb\xa2\x02\x03CSX\xaa\x02\x11Common.Service.V1\xca\x02\x11Common\\Service\\V1\xe2\x02\x1dCommon\\Service\\V1\\GPBMetadata\xea\x02\x13Common::Service::V1b\x06proto3"
+	"\x15com.common.service.v1B\x12BackupServiceProtoP\x01ZGgithub.com/lily-hdyadmin/hdyadmin-common/gen/go/common/service/v1;commonpb\xa2\x02\x03CSX\xaa\x02\x11Common.Service.V1\xca\x02\x11Common\\Service\\V1\xe2\x02\x1dCommon\\Service\\V1\\GPBMetadata\xea\x02\x13Common::Service::V1b\x06proto3"
 
 var (
 	file_common_service_v1_backup_service_proto_rawDescOnce sync.Once

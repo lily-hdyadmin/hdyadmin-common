@@ -8,7 +8,7 @@ import (
 	"sync"
 
 	"github.com/go-kratos/kratos/v2/log"
-	"github.com/go-tangra/go-tangra-common/gateway/transcoder"
+	"github.com/lily-hdyadmin/hdyadmin-common/gateway/transcoder"
 	authnEngine "github.com/tx7do/kratos-authn/engine"
 )
 

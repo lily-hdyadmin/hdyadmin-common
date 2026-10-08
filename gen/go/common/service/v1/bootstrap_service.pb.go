@@ -549,7 +549,7 @@ const file_common_service_v1_bootstrap_service_proto_rawDesc = "" +
 	"\x15SignModuleCertificate\x12/.common.service.v1.SignModuleCertificateRequest\x1a0.common.service.v1.SignModuleCertificateResponse\x12\\\n" +
 	"\vGetCABundle\x12%.common.service.v1.GetCABundleRequest\x1a&.common.service.v1.GetCABundleResponse\x12\x7f\n" +
 	"\x15BootstrapCertificates\x12/.common.service.v1.BootstrapCertificatesRequest\x1a0.common.service.v1.BootstrapCertificatesResponse\"\x03\x88\x02\x01B\xdd\x01\n" +
-	"\x15com.common.service.v1B\x15BootstrapServiceProtoP\x01ZGgithub.com/go-tangra/go-tangra-common/gen/go/common/service/v1;commonpb\xa2\x02\x03CSX\xaa\x02\x11Common.Service.V1\xca\x02\x11Common\\Service\\V1\xe2\x02\x1dCommon\\Service\\V1\\GPBMetadata\xea\x02\x13Common::Service::V1b\x06proto3"
+	"\x15com.common.service.v1B\x15BootstrapServiceProtoP\x01ZGgithub.com/lily-hdyadmin/hdyadmin-common/gen/go/common/service/v1;commonpb\xa2\x02\x03CSX\xaa\x02\x11Common.Service.V1\xca\x02\x11Common\\Service\\V1\xe2\x02\x1dCommon\\Service\\V1\\GPBMetadata\xea\x02\x13Common::Service::V1b\x06proto3"
 
 var (
 	file_common_service_v1_bootstrap_service_proto_rawDescOnce sync.Once

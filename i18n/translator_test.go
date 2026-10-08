@@ -6,8 +6,8 @@ import (
 	"testing/fstest"
 
 	kratosErrors "github.com/go-kratos/kratos/v2/errors"
-	commonV1 "github.com/go-tangra/go-tangra-common/gen/go/common/service/v1"
-	commonI18N "github.com/go-tangra/go-tangra-common/i18n"
+	commonV1 "github.com/lily-hdyadmin/hdyadmin-common/gen/go/common/service/v1"
+	commonI18N "github.com/lily-hdyadmin/hdyadmin-common/i18n"
 )
 
 func TestTranslatorUsesCommonCatalog(t *testing.T) {

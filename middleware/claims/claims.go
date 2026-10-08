@@ -15,7 +15,7 @@ import (
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/go-kratos/kratos/v2/middleware"
 	"github.com/go-kratos/kratos/v2/transport"
-	"github.com/go-tangra/go-tangra-common/grpcx"
+	"github.com/lily-hdyadmin/hdyadmin-common/grpcx"
 	grpcMD "google.golang.org/grpc/metadata"
 )
 

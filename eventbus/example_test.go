@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/go-kratos/kratos/v2/log"
-	"github.com/go-tangra/go-tangra-common/eventbus"
+	"github.com/lily-hdyadmin/hdyadmin-common/eventbus"
 )
 
 // Example_basic demonstrates basic event bus usage

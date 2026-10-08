@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/go-kratos/kratos/v2/log"
-	"github.com/go-tangra/go-tangra-common/gateway/transcoder"
+	"github.com/lily-hdyadmin/hdyadmin-common/gateway/transcoder"
 )
 
 // moduleHandler handles HTTP requests for a specific module.
